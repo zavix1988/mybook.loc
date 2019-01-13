@@ -1,0 +1,154 @@
+[2019-01-12 13:36:39] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/admin/User/index.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-12 13:39:41] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/admin/User/index.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-12 13:39:43] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/admin/User/index.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-12 13:40:01] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/admin/Genres/index.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-12 13:49:44] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/admin/User/index.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-12 15:54:05] Текст ошибки: Страница не найдена   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 71
+-------------
+[2019-01-12 15:54:44] Текст ошибки: Контроллер <b>app\controllers\DminController</b> не найден   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 65
+-------------
+[2019-01-12 15:54:52] Текст ошибки: Страница не найдена   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 71
+-------------
+[2019-01-12 15:54:57] Текст ошибки: Страница не найдена   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 71
+-------------
+[2019-01-12 15:55:00] Текст ошибки: Страница не найдена   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 71
+-------------
+[2019-01-12 15:59:29] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/Main/index.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-12 17:30:57] Текст ошибки: Call to undefined method vendor\core\Db::prepare()   |  Файл: D:\OSPanel\domains\mybook.loc\app\models\Genres.php | Строка: 44
+-------------
+[2019-01-12 17:38:00] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-12 17:38:31] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-12 17:38:31] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-12 23:37:08] Текст ошибки: Страница не найдена   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 71
+-------------
+[2019-01-12 23:38:36] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-12 23:38:36] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-12 23:38:36] Текст ошибки: Страница не найдена   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 71
+-------------
+[2019-01-13 12:38:05] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 12:38:05] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 12:42:01] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 12:42:01] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:15:12] Текст ошибки: PDO::prepare() expects parameter 1 to be string, array given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 35
+-------------
+[2019-01-13 14:15:12] Текст ошибки: Call to a member function execute() on boolean   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:15:51] Текст ошибки: PDO::prepare() expects parameter 1 to be string, array given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 44
+-------------
+[2019-01-13 14:15:51] Текст ошибки: Call to a member function execute() on boolean   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-13 14:16:29] Текст ошибки: PDO::prepare() expects parameter 1 to be string, array given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 44
+-------------
+[2019-01-13 14:16:29] Текст ошибки: Call to a member function execute() on boolean   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-13 14:16:31] Текст ошибки: PDO::prepare() expects parameter 1 to be string, array given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 44
+-------------
+[2019-01-13 14:16:31] Текст ошибки: Call to a member function execute() on boolean   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-13 14:17:10] Текст ошибки: SQLSTATE[HY000]: General error   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 47
+-------------
+[2019-01-13 14:17:10] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:23:47] Текст ошибки: SQLSTATE[HY000]: General error   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 47
+-------------
+[2019-01-13 14:23:47] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:23:50] Текст ошибки: SQLSTATE[HY000]: General error   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 47
+-------------
+[2019-01-13 14:23:50] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:24:03] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 56
+-------------
+[2019-01-13 14:24:03] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:24:29] Текст ошибки: Object of class PDOStatement could not be converted to string   |  Файл: D:\OSPanel\domains\mybook.loc\app\controllers\admin\GenresController.php | Строка: 18
+-------------
+[2019-01-13 14:36:36] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:36:36] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:40:07] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'field list'   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:40:07] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:42:17] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:42:17] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:42:42] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:42:42] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:44:18] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:44:18] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:46:55] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:46:55] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:47:13] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:47:13] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 14:47:37] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 14:47:37] Текст ошибки: http_response_code() expects parameter 1 to be long, string given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 15:16:14] Текст ошибки: Call to undefined method app\models\Genres::execute()   |  Файл: D:\OSPanel\domains\mybook.loc\app\models\Genres.php | Строка: 66
+-------------
+[2019-01-13 19:13:35] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:13:35] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 19:13:36] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:13:36] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 19:14:54] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:14:54] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 19:15:57] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:15:57] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 19:15:58] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:15:58] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 19:15:58] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:15:58] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 19:15:59] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:15:59] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-13 19:16:00] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-13 19:16:00] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-14 00:12:03] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-14 00:12:03] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
+[2019-01-14 00:12:05] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_genres' doesn't exist   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 36
+-------------
+[2019-01-14 00:12:05] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
+-------------
