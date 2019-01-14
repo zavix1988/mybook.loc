@@ -10,6 +10,8 @@ namespace app\models;
 
 use vendor\core\base\Model;
 
+
+
 class Books extends Model
 {
     public $table = 'books';
@@ -21,12 +23,12 @@ class Books extends Model
 
         $lastId = $this->pdo->lastInsertId();
 
-        $sql = "INSERT INTO books_authors (book_id, author_id) VALUES (?, ?)";
+        $sql = "INSERT INTO book_author (book_id, author_id) VALUES (?, ?)";
         foreach ($authors as $key => $value){
             $res = $this->pdo->execute($sql, [$lastId, $key]);
         }
 
-        $sql = "INSERT INTO books_genres (book_id, genre_id) VALUES (?, ?)";
+        $sql = "INSERT INTO book_genre (book_id, genre_id) VALUES (?, ?)";
         foreach ($authors as $key => $value) {
             $res =  $this->pdo->execute($sql, [$lastId, $key]);
         }
@@ -37,7 +39,7 @@ class Books extends Model
     public function addAuthorsById($id, $authors)
     {
         foreach ($authors as $key => $author) {
-            $sql = "INSERT INTO books_authors (book_id, author_id) VALUES  (?, ?)";
+            $sql = "INSERT INTO book_author (book_id, author_id) VALUES  (?, ?)";
             $res =  $this->pdo->execute($sql, [$id, $key]);
         }
         return $res;
@@ -45,13 +47,13 @@ class Books extends Model
 
     public function removeAuthor($bookId, $authorId)
     {
-        $sql = "DELETE FROM books_authors WHERE book_id = ? AND author_id = ? LIMIT 1";
+        $sql = "DELETE FROM book_author WHERE book_id = ? AND author_id = ? LIMIT 1";
         return $this->pdo->execute($sql, [$bookId, $authorId]);
     }
 
     public function addGenresById($id, $genres)
     {
-        $sql = "INSERT INTO books_genres (book_id, genre_id) VALUES (?, ?)";
+        $sql = "INSERT INTO book_genre (book_id, genre_id) VALUES (?, ?)";
         foreach ($genres as $key => $genre) {
             $res = $this->pdo->execute($sql, [$id, $key]);
         }
@@ -60,7 +62,7 @@ class Books extends Model
 
     public function removeGenre($bookId, $genreId)
     {
-        $sql = "DELETE FROM books_genres WHERE book_id = ? AND genre_id = ? LIMIT 1";
+        $sql = "DELETE FROM book_genre WHERE book_id = ? AND genre_id = ? LIMIT 1";
         return $this->pdo->execute($sql, [$bookId, $genreId]);
     }
 
@@ -74,10 +76,10 @@ class Books extends Model
     {
         $sql = "DELETE FROM {$this->table} WHERE id = ?";
         if($this->pdo->execute($sql, [$bookId])){
-            $sql = "DELETE FROM books_authors WHERE book_id = ?";
+            $sql = "DELETE FROM book_author WHERE book_id = ?";
             if($this->pdo->execute($sql, [$bookId])){
-                $sql = "DELETE FROM books_genres WHERE book_id = ?";
-                return $this->pdo->execute($sql,[$bookId]);
+                $sql = "DELETE FROM book_genre WHERE book_id = ?";
+                    return $this->pdo->execute($sql,[$bookId]);
             }else
                 return false;
         }

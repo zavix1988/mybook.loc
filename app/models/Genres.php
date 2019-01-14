@@ -23,7 +23,7 @@ class Genres extends Model
 
     public function add($genre)
     {
-        $sql = "INSERT INTO {$this->table} (name) VALUES ?";
+        $sql = "INSERT INTO {$this->table} (name) VALUES (?)";
         return $this->pdo->execute($sql,[$genre]);
     }
 

@@ -152,3 +152,221 @@
 -------------
 [2019-01-14 00:12:05] Текст ошибки: A non well formed numeric value encountered   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\ErrorHandler.php | Строка: 51
 -------------
+[2019-01-14 09:34:44] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/index.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 09:37:01] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Genres/add.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 09:37:04] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Genres/add.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 09:40:21] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/index.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 10:29:11] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Authors/delete.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 10:29:19] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Authors/add.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 10:40:52] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 10:40:54] Текст ошибки: Контроллер <b>app\controllers\admin\AddController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 10:41:00] Текст ошибки: Контроллер <b>app\controllers\admin\DeleteController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 10:41:45] Текст ошибки: Undefined variable: genre   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 26
+-------------
+[2019-01-14 10:41:45] Текст ошибки: Trying to get property 'name' of non-object   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 26
+-------------
+[2019-01-14 10:42:23] Текст ошибки: Undefined variable: genre   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 26
+-------------
+[2019-01-14 10:42:23] Текст ошибки: Undefined variable: genre   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 29
+-------------
+[2019-01-14 10:43:41] Текст ошибки: Контроллер <b>app\controllers\admin\DeleteController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 10:44:02] Текст ошибки: Контроллер <b>app\controllers\admin\DeleteController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 10:45:52] Текст ошибки: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 25
+-------------
+[2019-01-14 10:45:55] Текст ошибки: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 25
+-------------
+[2019-01-14 10:47:00] Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 1
+-------------
+[2019-01-14 10:47:34] Текст ошибки: Undefined variable: genre   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 27
+-------------
+[2019-01-14 10:47:34] Текст ошибки: Undefined variable: genre   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 30
+-------------
+[2019-01-14 10:48:56] Текст ошибки: Контроллер <b>app\controllers\admin\DeleteController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 10:49:27] Текст ошибки: Контроллер <b>app\controllers\admin\AddController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 11:33:56] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/index.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 11:50:39] Текст ошибки: Undefined variable: data   |  Файл: /var/www/books.loc/app/controllers/admin/AuthorsController.php | Строка: 20
+-------------
+[2019-01-14 11:50:39] Текст ошибки: Call to a member function findAll() on null   |  Файл: /var/www/books.loc/app/controllers/admin/AuthorsController.php | Строка: 20
+-------------
+[2019-01-14 11:51:12] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Authors/delete.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 11:56:00] Текст ошибки: метод <b>app\controllers\admin\AuthorsController::fgdAction</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 62
+-------------
+[2019-01-14 12:15:08] Текст ошибки: syntax error, unexpected ')', expecting ']'   |  Файл: /var/www/books.loc/app/controllers/admin/AuthorsController.php | Строка: 38
+-------------
+[2019-01-14 12:15:16] Текст ошибки: syntax error, unexpected ')', expecting ']'   |  Файл: /var/www/books.loc/app/controllers/admin/AuthorsController.php | Строка: 38
+-------------
+[2019-01-14 12:17:04] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Authors/delete.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 12:17:34] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Authors/delete.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 12:18:16] Текст ошибки: syntax error, unexpected ')', expecting ']'   |  Файл: /var/www/books.loc/app/controllers/admin/AuthorsController.php | Строка: 39
+-------------
+[2019-01-14 12:19:50] Текст ошибки: syntax error, unexpected ')', expecting ']'   |  Файл: /var/www/books.loc/app/controllers/admin/AuthorsController.php | Строка: 39
+-------------
+[2019-01-14 12:20:12] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_author' doesn't exist   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 12:20:12] Текст ошибки: A non well formed numeric value encountered   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 51
+-------------
+[2019-01-14 12:20:59] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_id' in 'where clause'   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 12:20:59] Текст ошибки: A non well formed numeric value encountered   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 51
+-------------
+[2019-01-14 12:27:36] Текст ошибки: Контроллер <b>app\controllers\admin\DeleteController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 12:29:20] Текст ошибки: Контроллер <b>app\controllers\admin\AddController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 13:09:37] Текст ошибки: метод <b>app\controllers\admin\AuthorsController::gfdfgAction</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 62
+-------------
+[2019-01-14 13:09:54] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-14 13:10:07] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-14 13:20:09] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/admin/Books/index.php | Строка: 24
+-------------
+[2019-01-14 13:20:09] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/admin/Books/index.php | Строка: 25
+-------------
+[2019-01-14 13:20:09] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/admin/Books/index.php | Строка: 26
+-------------
+[2019-01-14 13:20:09] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/admin/Books/index.php | Строка: 27
+-------------
+[2019-01-14 13:20:09] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/admin/Books/index.php | Строка: 28
+-------------
+[2019-01-14 13:20:09] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/admin/Books/index.php | Строка: 30
+-------------
+[2019-01-14 13:26:06] Текст ошибки: Class 'app\controllers\admin\Books' not found   |  Файл: /var/www/books.loc/app/controllers/admin/BooksController.php | Строка: 16
+-------------
+[2019-01-14 13:34:52] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Books/delete.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 13:36:03] Текст ошибки: Undefined variable: _GETT   |  Файл: /var/www/books.loc/app/controllers/admin/BooksController.php | Строка: 38
+-------------
+[2019-01-14 13:36:03] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_authors' doesn't exist   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 13:36:03] Текст ошибки: A non well formed numeric value encountered   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 51
+-------------
+[2019-01-14 13:36:15] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_authors' doesn't exist   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 13:36:15] Текст ошибки: A non well formed numeric value encountered   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 51
+-------------
+[2019-01-14 13:38:10] Текст ошибки: Контроллер <b>app\controllers\admin\AddController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 14:01:32] Текст ошибки: Undefined variable: bookModel   |  Файл: /var/www/books.loc/app/controllers/admin/BooksController.php | Строка: 26
+-------------
+[2019-01-14 14:01:32] Текст ошибки: Call to a member function findAll() on null   |  Файл: /var/www/books.loc/app/controllers/admin/BooksController.php | Строка: 26
+-------------
+[2019-01-14 14:02:36] Текст ошибки: Undefined variable: bookModel   |  Файл: /var/www/books.loc/app/controllers/admin/BooksController.php | Строка: 27
+-------------
+[2019-01-14 14:02:36] Текст ошибки: Call to a member function findAll() on null   |  Файл: /var/www/books.loc/app/controllers/admin/BooksController.php | Строка: 27
+-------------
+[2019-01-14 14:06:24] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-14 14:09:27] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-14 14:32:14] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Books/edit.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 14:35:42] Текст ошибки: метод <b>app\controllers\admin\BooksController::createAction</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 62
+-------------
+[2019-01-14 15:07:45] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/index.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 15:07:48] Текст ошибки: Контроллер <b>app\controllers\PageController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 15:10:08] Текст ошибки: Контроллер <b>app\controllers\admin\AddController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 15:11:48] Текст ошибки: syntax error, unexpected ';', expecting ':'   |  Файл: /var/www/books.loc/app/views/admin/Genres/index.php | Строка: 36
+-------------
+[2019-01-14 16:10:42] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/index.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 16:10:48] Текст ошибки: Контроллер <b>app\controllers\admin\AddController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:11:40] Текст ошибки: Undefined index: asd   |  Файл: /var/www/books.loc/app/views/admin/Genres/add.php | Строка: 9
+-------------
+[2019-01-14 16:21:02] Текст ошибки: htmlspecialchars() expects parameter 1 to be string, array given   |  Файл: /var/www/books.loc/vendor/libs/functions.php | Строка: 20
+-------------
+[2019-01-14 16:21:14] Текст ошибки: htmlspecialchars() expects parameter 1 to be string, array given   |  Файл: /var/www/books.loc/vendor/libs/functions.php | Строка: 20
+-------------
+[2019-01-14 16:21:39] Текст ошибки: rtrim() expects parameter 1 to be string, array given   |  Файл: /var/www/books.loc/app/controllers/admin/GenresController.php | Строка: 35
+-------------
+[2019-01-14 16:25:01] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Новый жанр'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:28:48] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''$genre'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:29:32] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fj'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:29:33] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fj'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:29:55] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fj'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:29:56] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fj'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:30:03] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fj'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:30:18] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`'fj'`' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:30:32] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fj'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:30:34] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''fj'' at line 1   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 36
+-------------
+[2019-01-14 16:34:24] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:37:01] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:37:33] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:38:45] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:41:26] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:44:51] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:45:39] Текст ошибки: Контроллер <b>app\controllers\admin\EditController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 16:49:51] Текст ошибки: Undefined index: id   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 17
+-------------
+[2019-01-14 16:49:51] Текст ошибки: Undefined index: name   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 18
+-------------
+[2019-01-14 16:49:54] Текст ошибки: Undefined index: id   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 17
+-------------
+[2019-01-14 16:49:54] Текст ошибки: Undefined index: name   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 18
+-------------
+[2019-01-14 16:51:09] Текст ошибки: Undefined index: id   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 18
+-------------
+[2019-01-14 16:51:09] Текст ошибки: Undefined index: name   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 19
+-------------
+[2019-01-14 16:51:14] Текст ошибки: Undefined index: id   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 18
+-------------
+[2019-01-14 16:51:14] Текст ошибки: Undefined index: name   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 19
+-------------
+[2019-01-14 16:51:52] Текст ошибки: Undefined index: id   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 18
+-------------
+[2019-01-14 16:51:52] Текст ошибки: Undefined index: name   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 19
+-------------
+[2019-01-14 16:52:45] Текст ошибки: Undefined index: id   |  Файл: /var/www/books.loc/app/controllers/admin/GenresController.php | Строка: 45
+-------------
+[2019-01-14 16:55:47] Текст ошибки: Undefined variable: genre   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 17
+-------------
+[2019-01-14 16:55:47] Текст ошибки: Undefined variable: genre   |  Файл: /var/www/books.loc/app/views/admin/Genres/edit.php | Строка: 18
+-------------
+[2019-01-14 17:12:05] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Books/edit.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-14 17:12:08] Текст ошибки: метод <b>app\controllers\admin\BooksController::createAction</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 62
+-------------
+[2019-01-14 17:13:47] Текст ошибки: Контроллер <b>app\controllers\PageController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-14 17:17:46] Текст ошибки: метод <b>app\controllers\admin\BooksController::createAction</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 62
+-------------
+[2019-01-14 17:18:28] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Books/add.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------

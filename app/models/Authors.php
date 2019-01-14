@@ -24,14 +24,14 @@ class Authors extends Model
 
     public function add($author)
     {
-        $sql = "INSERT INTO {$this->table} (name) VALUES ?";
+        $sql = "INSERT INTO {$this->table} (name) VALUES (?)";
         return $this->pdo->execute($sql,[$author]);
     }
 
     public function remove($authorId){
         $sql = "DELETE FROM {$this->table} WHERE id = ?";
         if($this->pdo->execute($sql, [$authorId])){
-            $sql = "DELETE FROM books_author WHERE genre_id = ?";
+            $sql = "DELETE FROM book_author WHERE author_id = ?";
             return $this->pdo->execute($sql, [$authorId]);
         }
         return false;
