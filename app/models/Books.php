@@ -19,8 +19,10 @@ class Books extends Model
 
     public function add($name, $price, $pubyear, $lang, $description, $authors, $genres)
     {
-        $sql = "INSERT INTO {$this->table} (name, price, pubyear, lang, description) VALUES (?, ?, ?, ?, ?)";
-        $res = $this->pdo->execute($sql, [$name, $price, $pubyear, $lang, $description]);
+        $slug = translit($name);
+
+        $sql = "INSERT INTO {$this->table} (name, slug, price, pubyear, lang, description) VALUES (?, ?, ?, ?, ?, ?)";
+        $res = $this->pdo->execute($sql, [$name, $slug, $price, $pubyear, $lang, $description]);
 
         $lastId = $this->pdo->lastInsertId();
 
@@ -39,14 +41,17 @@ class Books extends Model
 
     public function edit($bookId, $name, $price, $pubyear, $lang, $description, $authors, $genres)
     {
+        $slug = translit($name);
+
         $sql = "DELETE FROM book_author WHERE book_id = ? ";
         $res = $this->pdo->execute($sql, [$bookId]);
 
         $sql = "DELETE FROM book_genre WHERE book_id = ? ";
         $res = $this->pdo->execute($sql, [$bookId]);
 
-        $sql = "UPDATE {$this->table} SET name = ?, price = ?, pubyear = ?, lang = ?, description  = ? WHERE id = ? ";
-        $res = $this->pdo->execute($sql, [$name, $price, $pubyear, $lang, $description, $bookId]);
+        $sql = "UPDATE {$this->table} SET name = ?, slug = ?, price = ?, pubyear = ?, lang = ?, description  = ? WHERE id = ? ";
+        $res = $this->pdo->execute($sql, [$name, $slug, $price, $pubyear, $lang, $description, $bookId]);
+
 
         $sql = "INSERT INTO book_author (book_id, author_id) VALUES (?, ?)";
         foreach ($authors as $author){

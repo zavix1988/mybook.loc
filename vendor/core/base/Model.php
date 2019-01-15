@@ -26,9 +26,9 @@ class Model
         return $this->pdo->execute($sql);
     }
 
-    public function findAll()
+    public function findAll($column = 'name', $orderBy = 'ASC')
     {
-        $sql = "SELECT * FROM {$this->table}";
+        $sql = "SELECT * FROM {$this->table} ORDER BY {$column} {$orderBy}";
         return $this->pdo->query($sql);
     }
 

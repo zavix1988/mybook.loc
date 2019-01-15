@@ -48,6 +48,7 @@ class BooksController extends AppController
                 $_POST['genres']);
             redirect('/admin/books');
         }
+        unset($authors, $genres);
     }
 
     public function editAction()
@@ -56,7 +57,6 @@ class BooksController extends AppController
         $genres = new Genres();
         if(!empty($_GET['id'])){
             $book = $this->model->findOne(($_GET['id']*1));
-            //debug($book);die;
             $bookGenres = $genres->findByBookId(($_GET['id']*1));
             $genres = $genres->findAll();
             $bookAuthors = $authors->findByBookId(($_GET['id']*1));
