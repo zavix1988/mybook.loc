@@ -370,3 +370,311 @@
 -------------
 [2019-01-14 17:18:28] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/admin/Books/add.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
 -------------
+[2019-01-15 00:06:11] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/Main/index.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-15 00:06:48] Текст ошибки: Страница не найдена   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Router.php | Строка: 71
+-------------
+[2019-01-15 01:39:45] Текст ошибки: <p>Не найден вид <b>D:\OSPanel\domains\mybook.loc/app/views/admin/Books/edit.php</b></p>   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\base\View.php | Строка: 69
+-------------
+[2019-01-15 02:04:03] Текст ошибки: Object of class vendor\core\Db could not be converted to int   |  Файл: D:\OSPanel\domains\mybook.loc\app\models\Books.php | Строка: 20
+-------------
+[2019-01-15 02:04:03] Текст ошибки: Unsupported operand types   |  Файл: D:\OSPanel\domains\mybook.loc\app\models\Books.php | Строка: 20
+-------------
+[2019-01-15 02:04:45] Текст ошибки: Object of class vendor\core\Db could not be converted to int   |  Файл: D:\OSPanel\domains\mybook.loc\app\models\Books.php | Строка: 20
+-------------
+[2019-01-15 02:04:45] Текст ошибки: Unsupported operand types   |  Файл: D:\OSPanel\domains\mybook.loc\app\models\Books.php | Строка: 20
+-------------
+[2019-01-15 02:06:27] Текст ошибки: Call to undefined method vendor\core\Db::findOne()   |  Файл: D:\OSPanel\domains\mybook.loc\app\models\Books.php | Строка: 20
+-------------
+[2019-01-15 02:15:32] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:16:14] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:34:54] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:34:54] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:36:36] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:36:36] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:36:56] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:36:56] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:36:56] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:36:56] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:36:57] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:37:04] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:37:04] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:37:58] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:37:58] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:38:43] Текст ошибки: PDOStatement::execute() expects parameter 1 to be array, integer given   |  Файл: D:\OSPanel\domains\mybook.loc\vendor\core\Db.php | Строка: 45
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:40:49] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:40:53] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Illegal string offset 'name'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 17
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Illegal string offset 'price'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 21
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Illegal string offset 'pubyear'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 25
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Use of undefined constant book - assumed 'book'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:43:37] Текст ошибки: Illegal string offset 'description'   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 29
+-------------
+[2019-01-15 02:44:09] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:44:09] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 46
+-------------
+[2019-01-15 02:44:09] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:44:09] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 58
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:46:32] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:47:00] Текст ошибки: Undefined index: author_id   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 61
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 15
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 18
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 22
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 26
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 30
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 47
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 47
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 59
+-------------
+[2019-01-15 02:56:12] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 59
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 15
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 18
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 22
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 26
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Undefined variable: book   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 30
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Undefined variable: authors   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 47
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 47
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Undefined variable: genres   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 59
+-------------
+[2019-01-15 02:56:22] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: D:\OSPanel\domains\mybook.loc\app\views\admin\Books\edit.php | Строка: 59
+-------------

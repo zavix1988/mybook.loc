@@ -16,21 +16,46 @@ class Books extends Model
 {
     public $table = 'books';
 
+
     public function add($name, $price, $pubyear, $lang, $description, $authors, $genres)
     {
-        $sql = "INSERT INTO $this->table (name, price, pubyear, lang, description) VALUES (?, ?, ?, ?, ?)";
+        $sql = "INSERT INTO {$this->table} (name, price, pubyear, lang, description) VALUES (?, ?, ?, ?, ?)";
         $res = $this->pdo->execute($sql, [$name, $price, $pubyear, $lang, $description]);
 
         $lastId = $this->pdo->lastInsertId();
 
         $sql = "INSERT INTO book_author (book_id, author_id) VALUES (?, ?)";
-        foreach ($authors as $key => $value){
-            $res = $this->pdo->execute($sql, [$lastId, $key]);
+        foreach ($authors as $author){
+            $res = $this->pdo->execute($sql, [$lastId, $author]);
         }
 
         $sql = "INSERT INTO book_genre (book_id, genre_id) VALUES (?, ?)";
-        foreach ($authors as $key => $value) {
-            $res =  $this->pdo->execute($sql, [$lastId, $key]);
+        foreach ($genres as $genre) {
+            $res =  $this->pdo->execute($sql, [$lastId, $genre]);
+        }
+
+        return $res;
+    }
+
+    public function edit($bookId, $name, $price, $pubyear, $lang, $description, $authors, $genres)
+    {
+        $sql = "DELETE FROM book_author WHERE book_id = ? ";
+        $res = $this->pdo->execute($sql, [$bookId]);
+
+        $sql = "DELETE FROM book_genre WHERE book_id = ? ";
+        $res = $this->pdo->execute($sql, [$bookId]);
+
+        $sql = "UPDATE {$this->table} SET name = ?, price = ?, pubyear = ?, lang = ?, description  = ? WHERE id = ? ";
+        $res = $this->pdo->execute($sql, [$name, $price, $pubyear, $lang, $description, $bookId]);
+
+        $sql = "INSERT INTO book_author (book_id, author_id) VALUES (?, ?)";
+        foreach ($authors as $author){
+            $res = $this->pdo->execute($sql, [$bookId, $author]);
+        }
+
+        $sql = "INSERT INTO book_genre (book_id, genre_id) VALUES (?, ?)";
+        foreach ($genres as $genre) {
+            $res =  $this->pdo->execute($sql, [$bookId, $genre]);
         }
 
         return $res;

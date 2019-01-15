@@ -18,7 +18,7 @@ class Genres extends Model
      public function findByBookId($id)
     {
         $sql = "SELECT * FROM book_genre LEFT JOIN {$this->table} ON book_genre.genre_id={$this->table}.id WHERE book_id = ?";
-        return $this->pdo->query($sql, $id);
+        return $this->pdo->query($sql, [$id]);
     }
 
     public function add($genre)

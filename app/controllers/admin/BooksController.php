@@ -8,6 +8,8 @@
 
 namespace app\controllers\admin;
 
+use app\models\Authors;
+use app\models\Genres;
 use vendor\core\base\View;
 use app\models\Books;
 
@@ -30,12 +32,50 @@ class BooksController extends AppController
 
     public function addAction()
     {
-
+        $authors = new Authors();
+        $authors = $authors->findAll();
+        $genres = new Genres();
+        $genres = $genres->findAll();
+        $this->set(compact(['authors', 'genres']));
+        if(!empty($_POST)){
+            $this->model->add(
+                form_check($_POST['name']),
+                form_check($_POST['price']),
+                form_check($_POST['pubyear']),
+                form_check($_POST['lang']),
+                form_check($_POST['description']),
+                $_POST['authors'],
+                $_POST['genres']);
+            redirect('/admin/books');
+        }
     }
 
     public function editAction()
     {
+        $authors = new Authors();
+        $genres = new Genres();
+        if(!empty($_GET['id'])){
+            $book = $this->model->findOne(($_GET['id']*1));
+            //debug($book);die;
+            $bookGenres = $genres->findByBookId(($_GET['id']*1));
+            $genres = $genres->findAll();
+            $bookAuthors = $authors->findByBookId(($_GET['id']*1));
+            $authors = $authors->findAll();
 
+            $this->set(compact('book', 'genres', 'bookGenres', 'authors', 'bookAuthors'));
+        }
+        if (!empty($_POST)){
+            $this->model->edit(
+                ($_POST['id']*1),
+                form_check($_POST['name']),
+                ($_POST['price']*1),
+                ($_POST['pubyear']*1),
+                form_check($_POST['lang']),
+                form_check($_POST['description']),
+                $_POST['authors'],
+                $_POST['genres']);
+            redirect('/admin/books');
+        }
     }
 
     public function deleteAction()
