@@ -29,6 +29,7 @@ spl_autoload_register(function($class){
 new \vendor\core\App();
 
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
+Router::add('^sendmail$', ['controller' => 'Main', 'action' => 'sendMail']);
 Router::add('^book/(?P<alias>[a-z-]+)$', ['controller' => 'Main', 'action' => 'book']);
 
 //default routes

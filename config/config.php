@@ -9,6 +9,7 @@
 $config = [
     'components' =>[
         'cache' => 'vendor\libs\Cache',
+        'mailer' => 'vendor\libs\Mailer',
     ],
 ];
 
