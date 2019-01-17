@@ -23,21 +23,47 @@ class MainController extends AppController
         $this->mailer = new Mailer();
     }
 
-    public function indexAction()
+    public function indexAction($title = 'Главная')
     {
-        View::setMeta('Главная', 'bookcat', 'books, книги');
+        View::setMeta($title, 'bookcat', 'books, книги');
 
         $books = $this->books->findAll();
+        $genres = $this->genres->findAll();
+        $authors = $this->authors->findAll();
         foreach ($books as $book){
             $book['bookGenres'] = $this->genres->findByBookId($book['id']);
             $book['bookAuthors'] = $this->authors->findByBookId($book['id']);
             $newBooks[] = $book;
         }
-        $this->set(compact('newBooks', 'genres', 'bookGenres', 'authors', 'bookAuthors'));
+        $this->set(compact('newBooks', 'genres', 'authors'));
     }
 
-    public function sortAction()
+    public function filterAction()
     {
+        $this->view = 'index';
+
+        $genres = $this->genres->findAll();
+        $authors = $this->authors->findAll();
+
+        $formAuthor = (int)$_GET['author']*1;
+        $formGenre = (int)$_GET['genre']*1;
+        if ($formAuthor <= 0 && $formGenre <= 0){
+            $this->indexAction('Фильтр');
+        }else{
+            $booksByAuthor = $this->books->findByAuthorId($formAuthor);
+            $booksByGenre = $this->books->findByGenreId($formGenre);
+            foreach ($booksByAuthor as $book){
+                $book['bookGenres'] = $this->genres->findByBookId($book['book_id']);
+                $book['bookAuthors'] = $this->authors->findByBookId($book['book_id']);
+                $newBooks[] = $book;
+            }
+            foreach ($booksByGenre as $book){
+                $book['bookGenres'] = $this->genres->findByBookId($book['book_id']);
+                $book['bookAuthors'] = $this->authors->findByBookId($book['book_id']);
+                $newBooks[] = $book;
+            }
+            $this->set(compact('newBooks', 'genres', 'authors'));
+        }
 
     }
 
@@ -55,13 +81,14 @@ class MainController extends AppController
 
     public function sendMailAction()
     {
-        if (!empty($_POST)){
-            var_dump($_POST);
+        if($this->isAjax()){
+            if (!empty($_POST)){
+                $name = form_check($_POST['name']);
+                $address = form_check($_POST['address']);
+                $bookName = form_check($_POST['book']);
+                $bookCount = form_check($_POST['count']);
+                $this->mailer->sendMail('zavix@mksat.net', 'Новый заказ', compact('name', 'address', 'bookName', 'bookCount'));
+            }
         }die;
-        //$this->mailer->sendMail('zavix@mksat.net', 'hz', ['name' => 'Alex', 'address' => 'zavi@mksat.net', 'bookName' => 'book', 'bookCount' => 13]);
     }
-
-
-
-
 }

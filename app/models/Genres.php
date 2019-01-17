@@ -23,8 +23,9 @@ class Genres extends Model
 
     public function add($genre)
     {
-        $sql = "INSERT INTO {$this->table} (name) VALUES (?)";
-        return $this->pdo->execute($sql,[$genre]);
+        $slug = translit($genre);
+        $sql = "INSERT INTO {$this->table} (name, slug) VALUES (?, ?)";
+        return $this->pdo->execute($sql,[$genre, $slug]);
     }
 
     public function remove($genreId){
@@ -38,7 +39,9 @@ class Genres extends Model
 
     public function update($genreId, $genre)
     {
-        $sql = "UPDATE {$this->table} SET name = ? WHERE id = ?";
-        return $this->pdo->execute($sql, [$genre, $genreId]);
+        $slug = translit($genre);
+
+        $sql = "UPDATE {$this->table} SET name = ?, slug = ? WHERE id = ?";
+        return $this->pdo->execute($sql, [$genre, $slug, $genreId]);
     }
 }

@@ -3,7 +3,28 @@
     <hr/>
     <div class="row">
         <div class="col-md-2">
-
+            <h4>Фильтр</h4>
+            <form class="form" action="/filter" method="get">
+                <div class="form-group">
+                    <label for="author">Автор</label>
+                    <select name="author" class="form-control" id="lang">
+                        <option value="0" selected>Автор</option>
+                        <?php foreach ($authors as $author):?>
+                            <option value="<?=$author['id']?>"><?=$author['name']?></option>
+                        <?php endforeach;?>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="genre">Жанр</label>
+                    <select name="genre" class="form-control" id="lang">
+                        <option value="0" selected>Жанр</option>
+                        <?php foreach ($genres as $genre):?>
+                            <option value="<?=$genre['id']?>"><?=$genre['name']?></option>
+                        <?php endforeach;?>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-secondary">Посмотреть</button>
+            </form>
         </div>
         <div class="col-md-10">
             <table class="table table-striped">
@@ -40,15 +61,6 @@
                 </tr>
                 <?php endforeach;?>
                 </tbody>
-                <tfoot>
-                <tr>
-                    <td colspan="5">
-                        <ul class="pagination ">
-
-                        </ul>
-                    </td>
-                </tr>
-                </tfoot>
             </table>
         </div>
     </div>

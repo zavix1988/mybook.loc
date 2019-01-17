@@ -24,8 +24,10 @@ class Authors extends Model
 
     public function add($author)
     {
-        $sql = "INSERT INTO {$this->table} (name) VALUES (?)";
-        return $this->pdo->execute($sql,[$author]);
+        $slug = translit($author);
+
+        $sql = "INSERT INTO {$this->table} (name, slug) VALUES (?, ?)";
+        return $this->pdo->execute($sql,[$author, $slug]);
     }
 
     public function remove($authorId){
@@ -39,8 +41,10 @@ class Authors extends Model
 
     public function update($authorId, $author)
     {
-        $sql = "UPDATE {$this->table} SET name = ? WHERE id = ?";
-        return $this->pdo->execute($sql, [$author, $authorId]);
+        $slug = translit($author);
+
+        $sql = "UPDATE {$this->table} SET name = ?, slug = ?  WHERE id = ?";
+        return $this->pdo->execute($sql, [$author, $slug, $authorId]);
     }
 
 }

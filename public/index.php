@@ -30,6 +30,7 @@ new \vendor\core\App();
 
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
 Router::add('^sendmail$', ['controller' => 'Main', 'action' => 'sendMail']);
+Router::add('^filter$', ['controller' => 'Main', 'action' => 'filter']);
 Router::add('^book/(?P<alias>[a-z-]+)$', ['controller' => 'Main', 'action' => 'book']);
 
 //default routes

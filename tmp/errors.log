@@ -138,3 +138,615 @@
 -------------
 [2019-01-16 15:09:08] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/sendMail.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
 -------------
+[2019-01-17 09:35:27] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 09:35:36] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 10:45:43] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 10:57:59] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 10:58:13] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 10:59:16] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 10:59:56] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 61
+-------------
+[2019-01-17 10:59:58] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 61
+-------------
+[2019-01-17 11:01:09] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 11:01:37] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 11:02:06] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 11:02:14] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 11:04:21] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 11:04:24] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 11:21:38] Текст ошибки: Function name must be a string   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 60
+-------------
+[2019-01-17 11:41:23] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 11:41:25] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 12:09:31] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 12:11:10] Текст ошибки: Too few arguments to function app\models\Books::findByAuthorId(), 0 passed in /var/www/books.loc/app/controllers/MainController.php on line 41 and exactly 1 expected   |  Файл: /var/www/books.loc/app/models/Books.php | Строка: 21
+-------------
+[2019-01-17 12:11:50] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_authors' doesn't exist   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 45
+-------------
+[2019-01-17 12:11:50] Текст ошибки: A non well formed numeric value encountered   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 51
+-------------
+[2019-01-17 12:11:59] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'books.loc.books_authors' doesn't exist   |  Файл: /var/www/books.loc/vendor/core/Db.php | Строка: 45
+-------------
+[2019-01-17 12:11:59] Текст ошибки: A non well formed numeric value encountered   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 51
+-------------
+[2019-01-17 12:17:41] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 50
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 51
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 54
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:18:14] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 50
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 51
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 54
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:19:15] Текст ошибки: Undefined offset: 0   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:19:26] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 12:37:00] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 12:37:23] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 12:37:33] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:38:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:38:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:47:15] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:47:28] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:47:30] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:48:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:48:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:49:06] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:49:12] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:49:27] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:50:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:11] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:16] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:20] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:51:24] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 16
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 17
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 18
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: bookAuthors   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 20
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: bookGenres   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 25
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 31
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:53:17] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/book.php | Строка: 48
+-------------
+[2019-01-17 12:55:52] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 12:56:01] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:35:28] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:35:52] Текст ошибки: Контроллер <b>app\controllers\BookController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:36:17] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/filter.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-17 13:40:51] Текст ошибки: syntax error, unexpected ')'   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 41
+-------------
+[2019-01-17 13:41:06] Текст ошибки: Trying to get property 'prefix' of non-object   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 41
+-------------
+[2019-01-17 13:41:06] Текст ошибки: Trying to get property 'prefix' of non-object   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 43
+-------------
+[2019-01-17 13:41:06] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/filter.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-17 13:41:37] Текст ошибки: <p>Не найден вид <b>/var/www/books.loc/app/views/Main/filter.php</b></p>   |  Файл: /var/www/books.loc/vendor/core/base/View.php | Строка: 69
+-------------
+[2019-01-17 13:45:06] Текст ошибки: Undefined variable: books   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 48
+-------------
+[2019-01-17 13:45:06] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 48
+-------------
+[2019-01-17 13:45:06] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:45:06] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:46:37] Текст ошибки: Undefined variable: books   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:46:37] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:46:37] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:46:37] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:47:02] Текст ошибки: Undefined variable: books   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:47:02] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:47:02] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:47:02] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:48:35] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 13:48:59] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 13:49:05] Текст ошибки: Undefined variable: books   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:49:05] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:49:05] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:49:05] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:49:08] Текст ошибки: Undefined variable: books   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:49:08] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:49:08] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:49:08] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:49:22] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:49:39] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:49:55] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:49:59] Текст ошибки: Undefined variable: books   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:49:59] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 13:49:59] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:49:59] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:51:15] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:51:31] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:51:43] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 13:51:45] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 45
+-------------
+[2019-01-17 13:51:45] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:51:45] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:51:55] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 13:51:57] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 45
+-------------
+[2019-01-17 13:51:57] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:51:57] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 13:53:12] Текст ошибки: Страница не найдена   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 71
+-------------
+[2019-01-17 14:47:58] Текст ошибки: метод <b>app\controllers\MainController::genreAction</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 62
+-------------
+[2019-01-17 15:00:23] Текст ошибки: Контроллер <b>app\controllers\FilterController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 65
+-------------
+[2019-01-17 15:00:32] Текст ошибки: syntax error, unexpected ')'   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 44
+-------------
+[2019-01-17 15:00:53] Текст ошибки: syntax error, unexpected ')'   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 46
+-------------
+[2019-01-17 15:00:58] Текст ошибки: syntax error, unexpected ')'   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 46
+-------------
+[2019-01-17 15:45:55] Текст ошибки: Cannot use isset() on the result of an expression (you can use "null !== expression" instead)   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 44
+-------------
+[2019-01-17 15:47:50] Текст ошибки: Undefined variable: allBooks   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 54
+-------------
+[2019-01-17 15:48:39] Текст ошибки: Undefined variable: allBooks   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 54
+-------------
+[2019-01-17 15:48:41] Текст ошибки: Undefined variable: allBooks   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 54
+-------------
+[2019-01-17 15:49:10] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 45
+-------------
+[2019-01-17 15:49:58] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 45
+-------------
+[2019-01-17 16:05:36] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 16:05:36] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 16:06:49] Текст ошибки: Undefined index: author   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 43
+-------------
+[2019-01-17 16:06:49] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 16:06:49] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 16:07:04] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 16:07:04] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 16:07:12] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 16:07:12] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 17:02:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 11
+-------------
+[2019-01-17 17:02:18] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 11
+-------------
+[2019-01-17 17:02:18] Текст ошибки: Undefined variable: book   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 19
+-------------
+[2019-01-17 17:02:18] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 19
+-------------
+[2019-01-17 17:05:40] Текст ошибки: Undefined index: author   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 44
+-------------
+[2019-01-17 17:05:40] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 45
+-------------
+[2019-01-17 17:05:40] Текст ошибки: Undefined index: author   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 46
+-------------
+[2019-01-17 17:05:40] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 47
+-------------
+[2019-01-17 17:06:17] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 45
+-------------
+[2019-01-17 17:06:17] Текст ошибки: Undefined index: genre   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 47
+-------------
+[2019-01-17 17:24:25] Текст ошибки: Undefined variable: authors   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 12
+-------------
+[2019-01-17 17:24:25] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 12
+-------------
+[2019-01-17 17:24:25] Текст ошибки: Undefined variable: genres   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 17:24:25] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 17:24:25] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 42
+-------------
+[2019-01-17 17:24:25] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 42
+-------------
+[2019-01-17 17:25:05] Текст ошибки: Undefined variable: authors   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 12
+-------------
+[2019-01-17 17:25:05] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 12
+-------------
+[2019-01-17 17:25:05] Текст ошибки: Undefined variable: genres   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 17:25:05] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 17:25:05] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 42
+-------------
+[2019-01-17 17:25:05] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 42
+-------------
+[2019-01-17 17:32:32] Текст ошибки: A non-numeric value encountered   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 44
+-------------
+[2019-01-17 17:37:48] Текст ошибки: syntax error, unexpected ')'   |  Файл: /var/www/books.loc/app/controllers/MainController.php | Строка: 49
+-------------
+[2019-01-17 17:38:02] Текст ошибки: Undefined variable: authors   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 12
+-------------
+[2019-01-17 17:38:02] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 12
+-------------
+[2019-01-17 17:38:02] Текст ошибки: Undefined variable: genres   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 17:38:02] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 21
+-------------
+[2019-01-17 17:38:02] Текст ошибки: Undefined variable: newBooks   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 42
+-------------
+[2019-01-17 17:38:02] Текст ошибки: Invalid argument supplied for foreach()   |  Файл: /var/www/books.loc/app/views/Main/index.php | Строка: 42
+-------------

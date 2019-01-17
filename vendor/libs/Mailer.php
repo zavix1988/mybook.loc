@@ -34,7 +34,7 @@ class Mailer
     public function sendMail($to, $subject, $params = [])
     {
         $this->setMail($to, $subject, $params);
-        mail($this->to, $this->subject, $this->message, $this->headers);
+        return mail($this->to, $this->subject, $this->message, $this->headers);
     }
 
     private function setMessage($params=[])

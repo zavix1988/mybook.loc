@@ -17,6 +17,17 @@ class Books extends Model
     public $table = 'books';
 
 
+
+    public function findByAuthorId($id){
+        $sql = "SELECT * FROM book_author LEFT JOIN books ON book_author.book_id=books.id WHERE author_id = ? ";
+        return $this->pdo->query($sql, [$id]);
+    }
+
+    public function findByGenreId($id){
+        $sql = "SELECT * FROM book_genre LEFT JOIN books ON book_genre.book_id=books.id WHERE genre_id = ? ";
+        return $this->pdo->query($sql, [$id]);
+    }
+
     public function add($name, $price, $pubyear, $lang, $description, $authors, $genres)
     {
         $slug = translit($name);
