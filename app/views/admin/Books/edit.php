@@ -32,9 +32,9 @@
         <div class="form-group">
             <label for="">Язык</label>
             <select name="lang" class="form-control">
-                <option value="RUS">RUS</option>
-                <option value="UKR">UKR</option>
-                <option value="ENG">ENG</option>
+                <option value="RUS" <?php if($book[0]['lang'] == 'RUS') echo 'selected'?>>RUS</option>
+                <option value="UKR" <?php if($book[0]['lang'] == 'UKR') echo 'selected'?>>UKR</option>
+                <option value="ENG" <?php if($book[0]['lang'] == 'ENG') echo 'selected'?>>ENG</option>
             </select>
         </div>
         <!--

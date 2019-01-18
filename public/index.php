@@ -20,6 +20,7 @@ spl_autoload_register(function($class){
 new \vendor\core\App();
 
 Router::add('^sendmail$', ['controller' => 'Main', 'action' => 'sendMail']);
+Router::add('^about$', ['controller' => 'Main', 'action' => 'about']);
 Router::add('^filter$', ['controller' => 'Main', 'action' => 'filter']);
 Router::add('^book/(?P<alias>[a-z-]+)$', ['controller' => 'Main', 'action' => 'book']);
 

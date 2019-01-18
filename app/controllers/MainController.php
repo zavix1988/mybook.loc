@@ -87,4 +87,9 @@ class MainController extends AppController
             }
         }die;
     }
+
+    public function aboutAction()
+    {
+        View::setMeta('About', 'bookcat', 'books, книги');
+    }
 }

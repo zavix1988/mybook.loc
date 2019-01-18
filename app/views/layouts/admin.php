@@ -13,26 +13,26 @@
     <?=\vendor\core\base\View::getMeta()?>
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="/page/about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="/admin">Admin</a></li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">BookCat</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/admin">Admin</a>
+            </li>
         </ul>
     </div>
-
-    <?php if (isset($_SESSION['error'])):?>
-        <div class="alert alert-danger">
-            <?=$_SESSION['error']; unset($_SESSION['error']);?>
-        </div>
-    <?php endif;?>
-
-    <?php if (isset($_SESSION['success'])):?>
-        <div class="alert alert-success">
-            <?=$_SESSION['success']; unset($_SESSION['success']);?>
-        </div>
-    <?php endif;?>
+</nav>
 
     <?=$content;?>
 </div>

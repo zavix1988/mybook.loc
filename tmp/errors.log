@@ -772,3 +772,15 @@
 -------------
 [2019-01-18 15:51:00] Текст ошибки: require(): Failed opening required '/var/www/books.loc/config/errors/dev.php' (include_path='.:/usr/share/php')   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 90
 -------------
+[2019-01-18 17:32:46] Текст ошибки: Контроллер <b>app\controllers\PageController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 104
+-------------
+[2019-01-18 17:32:46] Текст ошибки: require(/var/www/books.loc/config/errors/dev.php): failed to open stream: No such file or directory   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 90
+-------------
+[2019-01-18 17:32:46] Текст ошибки: require(): Failed opening required '/var/www/books.loc/config/errors/dev.php' (include_path='.:/usr/share/php')   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 90
+-------------
+[2019-01-18 17:33:02] Текст ошибки: Контроллер <b>app\controllers\PageController</b> не найден   |  Файл: /var/www/books.loc/vendor/core/Router.php | Строка: 104
+-------------
+[2019-01-18 17:33:02] Текст ошибки: require(/var/www/books.loc/config/errors/dev.php): failed to open stream: No such file or directory   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 90
+-------------
+[2019-01-18 17:33:02] Текст ошибки: require(): Failed opening required '/var/www/books.loc/config/errors/dev.php' (include_path='.:/usr/share/php')   |  Файл: /var/www/books.loc/vendor/core/ErrorHandler.php | Строка: 90
+-------------
