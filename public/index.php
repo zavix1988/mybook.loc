@@ -1,20 +1,11 @@
 <?php
+
 use vendor\core\Router;
 
 $query = rtrim($_SERVER["QUERY_STRING"], '/');
 
-define('WWW', __DIR__);
-define('CORE', dirname(__DIR__) . '/vendor/core/');
-define('LIBS', dirname(__DIR__) . '/vendor/libs/');
-define('ROOT', dirname(__DIR__));
-define('APP', dirname(__DIR__) . '/app');
-define('CACHE', dirname(__DIR__) . '/tmp/cache');
-define('LAYOUT', 'default');
-define("DEBUG", 1);
-
-
+require '../config/config_const.php';
 require '../vendor/libs/functions.php';
-//require __DIR__. '/../vendor/autoload.php' ;
 
 
 spl_autoload_register(function($class){
@@ -28,7 +19,6 @@ spl_autoload_register(function($class){
 
 new \vendor\core\App();
 
-Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
 Router::add('^sendmail$', ['controller' => 'Main', 'action' => 'sendMail']);
 Router::add('^filter$', ['controller' => 'Main', 'action' => 'filter']);
 Router::add('^book/(?P<alias>[a-z-]+)$', ['controller' => 'Main', 'action' => 'book']);

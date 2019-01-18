@@ -9,14 +9,25 @@
 namespace vendor\core;
 
 
+/**
+ * Class Registry
+ * Регистрация пользовательских классов
+ * @package vendor\core
+ */
 class Registry
 {
     use TSingleton;
 
+    /**
+     * @var array
+     */
     public static $objects = [];
 
 /*    protected static $instance;*/
 
+    /**
+     * Registry constructor.
+     */
     protected function __construct()
     {
         $config = require_once ROOT . '/config/config.php';
@@ -27,15 +38,10 @@ class Registry
         }
     }
 
-/*    public static function instance()
-    {
-        if (self::$instance === null){
-            self::$instance = new self;
-        }
-
-        return self::$instance;
-    }*/
-
+    /**
+     * @param $name
+     * @return mixed
+     */
     public function __get($name)
     {
         // TODO: Implement __get() method.
@@ -45,6 +51,10 @@ class Registry
     }
 
 
+    /**
+     * @param $name
+     * @param $object
+     */
     public function __set($name, $object)
     {
         // TODO: Implement __set() method.
@@ -53,6 +63,9 @@ class Registry
         }
     }
 
+    /**
+     * Возвращает зарегистрирование классы
+     */
     public function getList()
     {
         echo '<pre>';

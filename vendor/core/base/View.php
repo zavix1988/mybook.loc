@@ -11,6 +11,7 @@ namespace vendor\core\base;
 
 /**
  * Class View
+ * Базовый вид
  * @package vendor\core\base
  */
 class View
@@ -33,14 +34,28 @@ class View
      */
     public $layout;
 
+    /**
+     * массив скриптов
+     * @var array
+     */
     public $scripts = [];
 
+    /**
+     * массив метаданных
+     * @var array
+     */
     public static $meta = [
         'title' => '',
         'desc' => '',
         'keywords' => ''
     ];
 
+    /**
+     * View constructor.
+     * @param $route
+     * @param string $layout
+     * @param string $view
+     */
     public function __construct($route, $layout = '', $view='')
     {
         $this->route = $route;
@@ -54,7 +69,10 @@ class View
 
 
     /**
+     * Рендер вида
      *
+     * @param $data
+     * @throws \Exception
      */
     public function render($data)
     {
@@ -85,6 +103,11 @@ class View
 
     }
 
+    /**
+     * Переносит пользователькие скрипты в конец вида
+     * @param $content
+     * @return string|string[]|null
+     */
     protected function getScript($content)
     {
         $pattern = "#<script.*?>.*?</script>#si";
@@ -95,6 +118,9 @@ class View
         return $content;
     }
 
+    /**
+     * Вывод метаданных
+     */
     public static function getMeta()
     {
         echo '<title>' . self::$meta['title']. '</title>
@@ -102,6 +128,13 @@ class View
         <meta name="keywords" content="' . self::$meta['keywords'] . '">';
     }
 
+    /**
+     * Заполнение массива метаданных
+     *
+     * @param string $title
+     * @param string $desc
+     * @param string $keywords
+     */
     public static function setMeta($title = '', $desc = '', $keywords = '')
     {
         self::$meta['title'] = $title;

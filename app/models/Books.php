@@ -11,24 +11,51 @@ namespace app\models;
 use vendor\core\base\Model;
 
 
-
+/**
+ * Class Books
+ * Модель книжек
+ * @package app\models
+ */
 class Books extends Model
 {
+    /**
+     * Базовая таблица
+     * @var string
+     */
     public $table = 'books';
 
 
+    /**
+     * Возвращает Все книжки по заданным авторам или жанрам
+     *
+     * @param $authorId
+     * @param $genreId
+     * @return mixed
+     */
+    public function findByAuthorGenreId($authorId, $genreId)
+    {
+        $sql = "SELECT books.id, books.name, books.slug, books.price, books.pubyear, books.lang, books.description FROM books 
+                      LEFT JOIN book_author ON books.id=book_author.book_id 
+                      LEFT JOIN book_genre ON books.id=book_genre.book_id 
+                WHERE book_author.author_id = ? OR book_genre.genre_id = ? 
+                GROUP BY books.id";
+        return $this->pdo->query($sql, [$authorId, $genreId]);
 
-    public function findByAuthorId($id){
-        $sql = "SELECT * FROM book_author LEFT JOIN books ON book_author.book_id=books.id WHERE author_id = ? ";
-        return $this->pdo->query($sql, [$id]);
     }
 
-    public function findByGenreId($id){
-        $sql = "SELECT * FROM book_genre LEFT JOIN books ON book_genre.book_id=books.id WHERE genre_id = ? ";
-        return $this->pdo->query($sql, [$id]);
-    }
-
-    public function add($name, $price, $pubyear, $lang, $description, $authors, $genres)
+    /**
+     * Добавляет книгу в таблицу
+     *
+     * @param $name
+     * @param $price
+     * @param $pubyear
+     * @param $lang
+     * @param $description
+     * @param $authors
+     * @param $genres
+     * @return mixed
+     */
+    public function create($name, $price, $pubyear, $lang, $description, $authors, $genres)
     {
         $slug = translit($name);
 
@@ -50,7 +77,20 @@ class Books extends Model
         return $res;
     }
 
-    public function edit($bookId, $name, $price, $pubyear, $lang, $description, $authors, $genres)
+    /**
+     * Редактирует книгу
+     *
+     * @param $bookId
+     * @param $name
+     * @param $price
+     * @param $pubyear
+     * @param $lang
+     * @param $description
+     * @param $authors
+     * @param $genres
+     * @return mixed
+     */
+    public function update($bookId, $name, $price, $pubyear, $lang, $description, $authors, $genres)
     {
         $slug = translit($name);
 
@@ -77,43 +117,14 @@ class Books extends Model
         return $res;
     }
 
-    public function addAuthorsById($id, $authors)
-    {
-        foreach ($authors as $key => $author) {
-            $sql = "INSERT INTO book_author (book_id, author_id) VALUES  (?, ?)";
-            $res =  $this->pdo->execute($sql, [$id, $key]);
-        }
-        return $res;
-    }
 
-    public function removeAuthor($bookId, $authorId)
-    {
-        $sql = "DELETE FROM book_author WHERE book_id = ? AND author_id = ? LIMIT 1";
-        return $this->pdo->execute($sql, [$bookId, $authorId]);
-    }
-
-    public function addGenresById($id, $genres)
-    {
-        $sql = "INSERT INTO book_genre (book_id, genre_id) VALUES (?, ?)";
-        foreach ($genres as $key => $genre) {
-            $res = $this->pdo->execute($sql, [$id, $key]);
-        }
-        return $res;
-    }
-
-    public function removeGenre($bookId, $genreId)
-    {
-        $sql = "DELETE FROM book_genre WHERE book_id = ? AND genre_id = ? LIMIT 1";
-        return $this->pdo->execute($sql, [$bookId, $genreId]);
-    }
-
-    public function update($bookId, $name, $price, $pubyear, $lang, $description)
-    {
-        $sql = "UPDATE {$this->table} SET name = ?, price = ?, pubyear = ?, lang = ?, description  = ? WHERE id = ? ";
-        return $this->pdo->execute($sql, [$name, $price, $pubyear, $lang, $description, $bookId]);
-    }
-
-    public function remove($bookId)
+    /**
+     * Удаляет книгу
+     *
+     * @param $bookId
+     * @return bool
+     */
+    public function delete($bookId)
     {
         $sql = "DELETE FROM {$this->table} WHERE id = ?";
         if($this->pdo->execute($sql, [$bookId])){

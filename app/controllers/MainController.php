@@ -50,18 +50,14 @@ class MainController extends AppController
         if ($formAuthor <= 0 && $formGenre <= 0){
             $this->indexAction('Фильтр');
         }else{
-            $booksByAuthor = $this->books->findByAuthorId($formAuthor);
-            $booksByGenre = $this->books->findByGenreId($formGenre);
-            foreach ($booksByAuthor as $book){
-                $book['bookGenres'] = $this->genres->findByBookId($book['book_id']);
-                $book['bookAuthors'] = $this->authors->findByBookId($book['book_id']);
+            $books = $this->books->findByAuthorGenreId($formAuthor, $formGenre);
+
+            foreach ($books as $book){
+                $book['bookGenres'] = $this->genres->findByBookId($book['id']);
+                $book['bookAuthors'] = $this->authors->findByBookId($book['id']);
                 $newBooks[] = $book;
             }
-            foreach ($booksByGenre as $book){
-                $book['bookGenres'] = $this->genres->findByBookId($book['book_id']);
-                $book['bookAuthors'] = $this->authors->findByBookId($book['book_id']);
-                $newBooks[] = $book;
-            }
+            View::setMeta('Фильтр', 'bookcat', 'books, книги');
             $this->set(compact('newBooks', 'genres', 'authors'));
         }
 

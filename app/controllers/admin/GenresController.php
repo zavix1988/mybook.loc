@@ -32,7 +32,7 @@ class GenresController extends AppController
     public function addAction()
     {
         if (!empty($_POST)){
-            $this->model->add(form_check($_POST['name']));
+            $this->model->create(form_check($_POST['name']));
             redirect('/admin/genres/');
         }
     }
@@ -53,7 +53,7 @@ class GenresController extends AppController
     {
         if (!empty($_GET['id'])){
             $genreId = form_check($_GET['id']);
-            $this->model->remove($genreId);
+            $this->model->delete($genreId);
         }
         redirect('/admin/genres');
     }

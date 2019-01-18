@@ -7,6 +7,7 @@
  */
 
 namespace vendor\core;
+
 use vendor\core\Registry;
 use vendor\core\ErrorHandler;
 

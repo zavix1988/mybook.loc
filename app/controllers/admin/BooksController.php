@@ -38,7 +38,7 @@ class BooksController extends AppController
         $genres = $genres->findAll();
         $this->set(compact(['authors', 'genres']));
         if(!empty($_POST)){
-            $this->model->add(
+            $this->model->create(
                 form_check($_POST['name']),
                 form_check($_POST['price']),
                 form_check($_POST['pubyear']),
@@ -65,7 +65,7 @@ class BooksController extends AppController
             $this->set(compact('book', 'genres', 'bookGenres', 'authors', 'bookAuthors'));
         }
         if (!empty($_POST)){
-            $this->model->edit(
+            $this->model->update(
                 ($_POST['id']*1),
                 form_check($_POST['name']),
                 ($_POST['price']*1),
@@ -84,7 +84,7 @@ class BooksController extends AppController
         if (!empty($_GET['id']))
         {
             $bookId = form_check($_GET['id']);
-            $this->model->remove($bookId);
+            $this->model->delete($bookId);
         }
         redirect('/admin/books');
     }

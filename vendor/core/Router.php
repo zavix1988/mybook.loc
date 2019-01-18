@@ -2,27 +2,61 @@
 
 namespace vendor\core;
 
+/**
+ * Class Router
+ * @package vendor\core
+ */
 class Router{
 
-	protected static $routes = [];
-	protected static $route = [];
+    /**
+     * Массив маршрутов
+     * @var array
+     */
+    protected static $routes = [];
 
-	public static function add($regExp, $route = [])
+    /**
+     * Маршрут
+     * @var array
+     */
+    protected static $route = [];
+
+    /**
+     * Добавляет маршрут для обработки
+     *
+     * @param $regExp
+     * @param array $route
+     */
+    public static function add($regExp, $route = [])
 	{
 		self::$routes[$regExp] = $route;
 	}
 
-	public static function getRoutes()
+    /**
+     * возвращает массив зарегистрированных маршрутов
+     *
+     * @return array
+     */
+    public static function getRoutes()
 	{
 		return self::$routes;
 	}
 
-	public static function getRoute()
+    /**
+     * возвращает массив с текущим маршрутом
+     *
+     * @return array
+     */
+    public static function getRoute()
 	{
 		return self::$route;
 	}
 
-	public static function matchRoute($url)
+    /**
+     * Заполняет массив $route
+     * @param $url
+     * @return bool
+     */
+    public static function matchRoute($url)
 	{
 		foreach (self::$routes as $pattern => $route) {
 			if(preg_match("#$pattern#i", $url, $matches)){
@@ -46,7 +80,12 @@ class Router{
 		return false;
 	}
 
-	public static function dispatch($url)
+    /**
+     * Создает объект контроллера и вида в зависимости от url
+     * @param $url
+     * @throws \Exception
+     */
+    public static function dispatch($url)
 	{
 		$url = self::removeQueryString($url);
 		if(self::matchRoute($url)){
@@ -63,26 +102,37 @@ class Router{
 				}
 			} else {
 			    throw new \Exception("Контроллер <b>$controller</b> не найден", 404);
-				//echo "Контроллер <b>$controller</b> не найден";
 			}
 		} else {
-/*			http_response_code(404);
-			include '404.html';*/
+
             throw new \Exception("Страница не найдена", 404);
 		}
 	}
 
-	protected static function upperCamelCase($name)
+    /**
+     * @param $name
+     * @return mixed
+     */
+    protected static function upperCamelCase($name)
 	{
 		return $name = str_replace(" ", "", ucwords(str_replace("-", " ", $name)));
 	}
 
-	protected static function lowerCamelCase($name)
+    /**
+     *
+     * @param $name
+     * @return string
+     */
+    protected static function lowerCamelCase($name)
 	{
 		return lcfirst(self::upperCamelCase($name));
 	}
 
-	protected static function removeQueryString($url)
+    /**
+     * @param $url
+     * @return string
+     */
+    protected static function removeQueryString($url)
 	{
 		if ($url) {
 			$params = explode('&', $url, 2);

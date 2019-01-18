@@ -9,8 +9,16 @@
 namespace vendor\core;
 
 
+/**
+ * Class ErrorHandler
+ * Обработчик ошибок
+ * @package vendor\core
+ */
 class ErrorHandler
 {
+    /**
+     * ErrorHandler constructor.
+     */
     public function __construct()
     {
         if (DEBUG) error_reporting(-1);
@@ -21,6 +29,15 @@ class ErrorHandler
         set_exception_handler([$this, 'exceptionHandler']);
     }
 
+    /**
+     * Отлавливает ошибки кроме fatal error
+     *
+     * @param $errno
+     * @param $errstr
+     * @param $errfile
+     * @param $errline
+     * @return bool
+     */
     public function errorHandler($errno, $errstr, $errfile, $errline)
     {
         $this->logErrors($errstr, $errfile, $errline);
@@ -28,6 +45,9 @@ class ErrorHandler
         return true;
     }
 
+    /**
+     * Отлавливает fatal error
+     */
     public function fatalErrorHandler()
     {
         $error = error_get_last();
@@ -40,12 +60,25 @@ class ErrorHandler
         }
     }
 
+    /**
+     * Отлавливает исключения
+     * @param $e
+     */
     public function exceptionHandler($e)
     {
         $this->logErrors($e->getMessage(), $e->getFile(), $e->getLine());
         $this->displayError('Исключение', $e->getMessage(), $e->getFile(), $e->getLine(), $e->getCode());
     }
 
+    /**
+     * Подключает страницу ошибки
+     *
+     * @param $errno
+     * @param $errstr
+     * @param $errfile
+     * @param $errline
+     * @param int $response
+     */
     protected function displayError($errno, $errstr, $errfile, $errline, $response = 500)
     {
         http_response_code($response);
@@ -60,6 +93,13 @@ class ErrorHandler
         }
     }
 
+    /**
+     * Логирование ошибок
+     *
+     * @param string $message
+     * @param string $file
+     * @param string $line
+     */
     protected function logErrors($message = '', $file = '', $line = '')
     {
         error_log("[" . date('Y-m-d H:i:s') . "] Текст ошибки: {$message}   |  Файл: {$file} | Строка: {$line}\n-------------\n", 3, ROOT . '/tmp/errors.log');

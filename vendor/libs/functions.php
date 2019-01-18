@@ -1,9 +1,19 @@
 <?php
 
+/**
+ * обертка над print_r()
+ * для отладки
+ * @param $arr
+ */
 function debug($arr){
 	echo '<pre>'.print_r($arr, true).'</pre>';
 }
 
+/**
+ * Функция переадресации
+ *
+ * @param bool $http
+ */
 function redirect($http = false){
     if($http){
         $redirect = $http;
@@ -14,6 +24,12 @@ function redirect($http = false){
     die;
 }
 
+/**
+ * Проверка данных из формы
+ *
+ * @param $value
+ * @return string
+ */
 function form_check($value)
 {
     if (isset($value) && !empty($value)) {
@@ -24,6 +40,11 @@ function form_check($value)
     return $result;
 }
 
+/**
+ * Функция транслитерации (для генерации ЧПУ)
+ * @param $s
+ * @return mixed|string|string[]|null
+ */
 function translit($s) {
     $s = (string) $s; // преобразуем в строковое значение
     $s = strip_tags($s); // убираем HTML-теги

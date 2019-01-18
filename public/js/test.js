@@ -1,4 +1,0 @@
-/*
-$(function () {
-   alert($('#send').text());
-});*/

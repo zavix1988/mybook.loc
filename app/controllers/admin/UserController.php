@@ -13,6 +13,9 @@ use vendor\core\base\View;
 
 class UserController extends AppController
 {
+    /**
+     * Отправка мета-тегов в вид
+     */
     public function indexAction(){
         View::setMeta('Админка', 'админка', 'admin');
     }
