@@ -22,7 +22,7 @@ new \vendor\core\App();
 Router::add('^sendmail$', ['controller' => 'Main', 'action' => 'sendMail']);
 Router::add('^about$', ['controller' => 'Main', 'action' => 'about']);
 Router::add('^filter$', ['controller' => 'Main', 'action' => 'filter']);
-Router::add('^book/(?P<alias>[a-z-]+)$', ['controller' => 'Main', 'action' => 'book']);
+Router::add('^book/(?P<alias>[a-z0-9-]+)$', ['controller' => 'Main', 'action' => 'book']);
 
 //default routes
 Router::add('^admin$', ['controller' => 'User', 'action' => 'index', 'prefix' => 'admin']);
